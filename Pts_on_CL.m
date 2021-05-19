@@ -1,4 +1,4 @@
-function [A]=Pts_on_CL(A_CL,distho_s)
+function [A]=Pts_on_CL(A_CL,dist_s)
 % A_CL address of centerlines (shape file, polyline)
 % dist_s the distance from the start point (glacier snot)
 AA=shaperead(A_CL);
