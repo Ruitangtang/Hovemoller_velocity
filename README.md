@@ -8,3 +8,4 @@ Get the velocity value for every point
 # Step 3
 Generate the velocity matrix
 Hovemoller_Test.m
+### repelem.m is a quite good replacement in Matlab
