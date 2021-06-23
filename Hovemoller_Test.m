@@ -1,8 +1,8 @@
 %% derive the points
-A_xyd=Pts_on_CL('F:\Thesis_phd\Paper_2\test\Test_centerline_N1_1.shp',300);
+A_xyd=Pts_on_CL('PATH_TO_CENTERLINE_FILE(SHPFILE)',300);
 
 %% read the date_interval file
-Date_d=xlsread('F:\Thesis_phd\Paper_2\Smooth\Date_dif.xlsx');
+Date_d=xlsread('PATH_TO_DATE_INTERVAL_FILE');
 %% the date information of the study period
 Year_n=[365,365,366,365,365,365]';
 Month_n=[31 31;28 29;31 31 ;30 30;31 31 ;30 30;31 31 ;31 31;30 30;31 31;30 30;31 31];
