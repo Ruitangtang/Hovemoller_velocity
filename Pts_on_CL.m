@@ -1,6 +1,6 @@
 function [A]=Pts_on_CL(A_CL,dist_s)
 % A_CL address of centerlines (shape file, polyline)
-% dist_s the distance from the start point (glacier snot)
+% dist_s the distance from the start point (glacier snot), which represents the invertal between points on the centerline
 AA=shaperead(A_CL);
 X_1 = AA.X(1:end-1);
 Y_1 = AA.Y(1:end-1);
